@@ -28,9 +28,9 @@
     - https://htmlreference.io/ 
     - httos://desarrolloweb.com/articulos/11.php -->
     <p>Hola, escribiendo mi primer documento HTML</p>
-    <p>Aprendiendo sobre Diseño Web</p>  
+    <p>Aprendiendo sobre Diseño Web</p>
     <hr>
-    <h2>Encabezados HTML</h2> 
+    <h2>Encabezados HTML</h2>
     <h1>Encabezado de nivel 1 - sólo puede existir un h1 por documento HTML</h1>
     <h2>Encabezado de nivel 2</h2>
     <h3>Encabezado de nivel 3</h3>
@@ -40,9 +40,11 @@
     <hr>
     <h2>Etiquetas de texto básicas</h2>
     <p>Un párrafo</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique excepturi magni enim vitae mollitia, quas non, dolor odit cum quidem perspiciatis maiores sit cumque omnis? Distinctio doloribus earum consequuntur itaque?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique excepturi magni enim vitae mollitia, quas non,
+        dolor odit cum quidem perspiciatis maiores sit cumque omnis? Distinctio doloribus earum consequuntur itaque?</p>
     <p>
-        Palabras en: <b>negrita</b>, <i>Italica</i>, <u>subrayado</u>, e=mc<sup>2</sup>, H<sub>2</sub>O, <mark>marcatexto</mark>, <small>letras pequeñas</small> 
+        Palabras en: <b>negrita</b>, <i>Italica</i>, <u>subrayado</u>, e=mc<sup>2</sup>, H<sub>2</sub>O,
+        <mark>marcatexto</mark>, <small>letras pequeñas</small>
     </p>
     <hr>
     <h2>Etiquetas de Texto Semánticas</h2>
@@ -54,7 +56,9 @@
     <hr>
     <h2>Etiquetas de saltos</h2>
     <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Excepturi voluptate ab sit quibusdam ullam doloribus molestias ex. <br><br>Sequi odio dolores, libero dicta id animi corrupti consequatur pariatur, saepe aperiam autem!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Excepturi voluptate ab sit quibusdam ullam
+        doloribus molestias ex. <br><br>Sequi odio dolores, libero dicta id animi corrupti consequatur pariatur, saepe
+        aperiam autem!
     </p>
     <hr>
     <h2>Etiquetas de formateo</h2>
@@ -73,7 +77,7 @@
         <code>Este texto está en formato de código</code>
     </p>
     <p>
-        <pre>
+    <pre>
             <code>
                 import React from "react"
                 import Title from "./Title";
@@ -89,7 +93,7 @@
     <div>Es una etiqueta contenedora que no tiene semántica</div>
     <header>header - Cabecera de un sitio web o de una sección</header>
     <main>
-        main - Define la sección principal del documento, sólo puede existir una 
+        main - Define la sección principal del documento, sólo puede existir una
         etiqueta main por documento
     </main>
     <footer>footer - Pié de página de un sitio web o de una sección</footer>
@@ -103,9 +107,10 @@
     <address>address - Representa una información de contacto</address>
     <hr>
     <h2>Etiquetas de Bloque VS Etiquetas de Línea</h2>
-    <div style="background-color: yellow; color: red;">La etiqueta de bloque por excelencia es la div, una etiqueta de bloque es aquella que genera saltos de línea con sus etiquetas hermanas</div>
-    <span style="background-color: greenyellow;">La etiqueta de línea por excelencia es la span, una etiqueta de línea 
-        sólo ocupa el espacio necesario que tiene su 
+    <div style="background-color: yellow; color: red;">La etiqueta de bloque por excelencia es la div, una etiqueta de
+        bloque es aquella que genera saltos de línea con sus etiquetas hermanas</div>
+    <span style="background-color: greenyellow;">La etiqueta de línea por excelencia es la span, una etiqueta de línea
+        sólo ocupa el espacio necesario que tiene su
         contenido.</span>
     <span>Hola soy otra span</span>
     <hr>
@@ -113,11 +118,26 @@
     <hr>
     <h2>Scripts en HTML</h2>
     <hr>
-    <h2>Imágenes</h2>    
+    <h2>Imágenes</h2>
     <img src="img/santos-logo.png" alt="Logo del mejor club del mundo Santos Laguna">
     <img src="img/tec-laguna.jpg" alt="Logo de mi Tecnológico Nacional de México Campus La Laguna">
     <img src="img/bob-esponja.gif" alt="Una animación de Bob Esponja">
     <img src="img/weather-moon.svg" alt="La luna">
+    <hr>
+    <h2>SVG</h2>
+    <!-- 
+        Páginas para descargar archivos SVG
+        https://css.gg/ 
+        https://www.svgrepo.com/
+    -->
+    <img src="img/weather-moon.svg" alt="La luna">
+    <img src="img/google-icon.svg" alt="El ícono de Google">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M17 5.5H20C21.1046 5.5 22 6.39543 22 7.5V19.5C22 20.6046 21.1046 21.5 20 21.5H4C2.89543 21.5 2 20.6046 2 19.5V7.5C2 6.39543 2.89543 5.5 4 5.5H7C7 3.84315 8.34315 2.5 10 2.5H14C15.6569 2.5 17 3.84315 17 5.5ZM14 4.5H10C9.44772 4.5 9 4.94772 9 5.5H15C15 4.94772 14.5523 4.5 14 4.5ZM20 7.5H4V9.5H20V7.5ZM4 19.5V11.5H7V13.5H11V11.5H13V13.5H17V11.5H20V19.5H4Z"
+            fill="currentColor" />
+    </svg>
+    <img src="img/fox.svg" alt="Un zorro">
     <hr>
     <script>
         console.log("Hola estamos aprendiendo HTML");
