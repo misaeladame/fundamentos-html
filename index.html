@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <h2>Aprendiendo HTML</h2>
+    <h2 id="inicio">Aprendiendo HTML</h2>
     <!-- Esto es un comentario -->
     <!-- Enlaces de introducción a HTML y su documentación 
     - https://www.w3.org/html/
@@ -29,16 +29,39 @@
     - httos://desarrolloweb.com/articulos/11.php -->
     <p>Hola, escribiendo mi primer documento HTML</p>
     <p>Aprendiendo sobre Diseño Web</p>
+    <h3>Temario del curso</h3>
+    <!-- ul>li*18>a -->
+    <ul>
+        <li><a href="index.html#encabezados">Encabezados HTML</a></li>
+        <li><a href="index.html#textos-basicos">Etiquetas de texto básicas</a></li>
+        <li><a href="index.html#textos-semanticos">Etiquetas de Texto Semánticas</a></li>
+        <li><a href="index.html#saltos">Etiquetas de saltos</a></li>
+        <li><a href="index.html#formateo">Etiquetas de formateo</a></li>
+        <li><a href="index.html#semanticas-estructurales">Etiquetas semánticas estructurales</a></li>
+        <li><a href="index.html#bloque-vs-linea">Etiquetas de Bloque VS Etiquetas de Línea</a></li>
+        <li><a href="index.html#css">Estilos CSS en HTML</a></li>
+        <li><a href="index.html#scripts">Scripts en HTML</a></li>
+        <li><a href="index.html#imagenes">Imágenes</a></li>
+        <li><a href="index.html#svg">SVG</a></li>
+        <li><a href="index.html#figuras">Figuras</a></li>
+        <li><a href="index.html#listas-ordenadas">Listas ordenadas</a></li>
+        <li><a href="index.html#listas-desordenadas">Listas desordenadas</a></li>
+        <li><a href="index.html#listas-definicion">Listas de Definición</a></li>
+        <li><a href="index.html#tablas">Tablas</a></li>
+        <li><a href="index.html#enlaces">Enlaces</a></li>
+        <li><a href="index.html#enlaces-internos">Enlaces internos</a></li>
+    </ul>
     <hr>
-    <h2>Encabezados HTML</h2>
+    <h2 id="encabezados">Encabezados HTML</h2>
     <h1>Encabezado de nivel 1 - sólo puede existir un h1 por documento HTML</h1>
     <h2>Encabezado de nivel 2</h2>
     <h3>Encabezado de nivel 3</h3>
     <h4>Encabezado de nivel 4</h4>
     <h5>Encabezado de nivel 5</h5>
     <h6>Encabezado de nivel 6</h6>
+    <a href="index.html#inicio">☝️</a>
     <hr>
-    <h2>Etiquetas de texto básicas</h2>
+    <h2 id="textos-basicos">Etiquetas de texto básicas</h2>
     <p>Un párrafo</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique excepturi magni enim vitae mollitia, quas non,
         dolor odit cum quidem perspiciatis maiores sit cumque omnis? Distinctio doloribus earum consequuntur itaque?</p>
@@ -46,22 +69,26 @@
         Palabras en: <b>negrita</b>, <i>Italica</i>, <u>subrayado</u>, e=mc<sup>2</sup>, H<sub>2</sub>O,
         <mark>marcatexto</mark>, <small>letras pequeñas</small>
     </p>
+    <a href="index.html#inicio">☝️</a>
     <hr>
-    <h2>Etiquetas de Texto Semánticas</h2>
+    <h2 id="textos-semanticos">Etiquetas de Texto Semánticas</h2>
     <p>
         <strong>Este texto es importante</strong>. <em>Este texto hace énfasis</em>
     </p>
     <blockquote>Yo solo sé, que no se nada</blockquote>
     <cite>Sócrates</cite>
+    <br>
+    <a href="index.html#inicio">☝️</a>
     <hr>
-    <h2>Etiquetas de saltos</h2>
+    <h2 id="saltos">Etiquetas de saltos</h2>
     <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Excepturi voluptate ab sit quibusdam ullam
         doloribus molestias ex. <br><br>Sequi odio dolores, libero dicta id animi corrupti consequatur pariatur, saepe
         aperiam autem!
     </p>
+    <a href="index.html#inicio">☝️</a>
     <hr>
-    <h2>Etiquetas de formateo</h2>
+    <h2 id="formateo">Etiquetas de formateo</h2>
     <p>
     <pre>
     Tareas por Hacer:
@@ -88,8 +115,9 @@
             </code>
         </pre>
     </p>
+    <a href="index.html#inicio">☝️</a>
     <hr>
-    <h2>Etiquetas semánticas estructurales</h2>
+    <h2 id="semanticas-estructurales">Etiquetas semánticas estructurales</h2>
     <div>Es una etiqueta contenedora que no tiene semántica</div>
     <header>header - Cabecera de un sitio web o de una sección</header>
     <main>
@@ -105,26 +133,33 @@
     <aside>aside - Representa contenido complementario o secundario</aside>
     <section>section - Representa una sección de contenido genérico</section>
     <address>address - Representa una información de contacto</address>
+    <a href="index.html#inicio">☝️</a>
     <hr>
-    <h2>Etiquetas de Bloque VS Etiquetas de Línea</h2>
+    <h2 id="bloque-vs-linea">Etiquetas de Bloque VS Etiquetas de Línea</h2>
     <div style="background-color: yellow; color: red;">La etiqueta de bloque por excelencia es la div, una etiqueta de
         bloque es aquella que genera saltos de línea con sus etiquetas hermanas</div>
     <span style="background-color: greenyellow;">La etiqueta de línea por excelencia es la span, una etiqueta de línea
         sólo ocupa el espacio necesario que tiene su
         contenido.</span>
     <span>Hola soy otra span</span>
+    <br>
+    <a href="index.html#inicio">☝️</a>
     <hr>
-    <h2>Estilos CSS en HTML</h2>
+    <h2 id="css">Estilos CSS en HTML</h2>
+    <a href="index.html#inicio">☝️</a>
     <hr>
-    <h2>Scripts en HTML</h2>
+    <h2 id="scripts">Scripts en HTML</h2>
+    <a href="index.html#inicio">☝️</a>
     <hr>
-    <h2>Imágenes</h2>
+    <h2 id="imagenes">Imágenes</h2>
     <img src="img/santos-logo.png" alt="Logo del mejor club del mundo Santos Laguna">
     <img src="img/tec-laguna.jpg" alt="Logo de mi Tecnológico Nacional de México Campus La Laguna">
     <img src="img/bob-esponja.gif" alt="Una animación de Bob Esponja">
     <img src="img/weather-moon.svg" alt="La luna">
+    <br>
+    <a href="index.html#inicio">☝️</a>
     <hr>
-    <h2>SVG</h2>
+    <h2 id="svg">SVG</h2>
     <!-- 
         Páginas para descargar archivos SVG
         https://css.gg/ 
@@ -138,14 +173,16 @@
             fill="currentColor" />
     </svg>
     <img src="img/fox.svg" alt="Un zorro">
+    <a href="index.html#inicio">☝️</a>
     <hr>
-    <h2>Figuras</h2>
+    <h2 id="figuras">Figuras</h2>
     <figure>
         <img src="img/tec-laguna.jpg" alt="El logo del Tecnológico Nacional de México Campus La Laguna">
         <figcaption>El logo del Tecnológico Nacional de México Campus La Laguna</figcaption>
     </figure>
+    <a href="index.html#inicio">☝️</a>
     <hr>
-    <h2>Listas ordenadas</h2>
+    <h2 id="listas-ordenadas">Listas ordenadas</h2>
     <h3>Las estaciones del año</h3>
     <ol>
         <li>Primavera</li>
@@ -177,8 +214,9 @@
         <li>Otoño</li>
         <li>Invierno</li>
     </ol>
+    <a href="index.html#inicio">☝️</a>
     <hr>
-    <h2>Listas desordenadas</h2>
+    <h2 id="listas-desordenadas">Listas desordenadas</h2>
     <h3>Cosas por hacer</h3>
     <ul>
         <li>Festejar Año Nuevo</li>
@@ -195,8 +233,9 @@
         <li>Estudiar para conseguir prácticas</li>
         <li>Dominar el lenguaje Python</li>
     </ul>
+    <a href="index.html#inicio">☝️</a>
     <hr>
-    <h2>Listas de Definición</h2>
+    <h2 id="listas-definicion">Listas de Definición</h2>
     <dl>
         <dt>HTML</dt>
         <dd>Es un lenguaje de marcado que define el contenido de la Web</dd>
@@ -205,8 +244,9 @@
         <dt>JavaScript</dt>
         <dd>Es el lenguaje de la web</dd>
     </dl>
+    <a href="index.html#inicio">☝️</a>
     <hr>
-    <h2>Tablas</h2>
+    <h2 id="tablas">Tablas</h2>
 
     <table>
         <tr>
@@ -274,8 +314,9 @@
             </tr>
         </tfoot>
     </table>
+    <a href="index.html#inicio">☝️</a>
     <hr>
-    <h2>Enlaces</h2>
+    <h2 id="enlaces">Enlaces</h2>
     <a href="hola.html">Hacía la página Hola</a>
     <br>
     <a href="https://es.dotabuff.com/players/174196027" target="_blank" rel="nofollow">Visita mi perfil de Dotabuff</a>
@@ -291,7 +332,14 @@
                 fill="currentColor" />
         </svg>
     </a>
+    <br>
+    <a href="index.html#inicio">☝️</a>
     <hr>
+    <h2 id="enlaces-internos">Enlaces internos</h2>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    
+
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <script>
         console.log("Hola estamos aprendiendo HTML");
