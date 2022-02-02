@@ -26,7 +26,10 @@
     - https://www.w3.org/blog/news/archives/7753
     - https://developer.mozilla.org/es/docs/Web/HTML
     - https://htmlreference.io/ 
-    - httos://desarrolloweb.com/articulos/11.php -->
+    - httos://desarrolloweb.com/articulos/11.php 
+    - https://allthetags.com/
+    - https://www.sitepoint.com/the-periodic-table-of-the-html-5-elements/
+    -->
     <p>Hola, escribiendo mi primer documento HTML</p>
     <p>Aprendiendo sobre Diseño Web</p>
     <h3>Temario del curso</h3>
@@ -457,10 +460,37 @@
         <option value="">PHP</option>
         <option value="">Python</option>
     </select>
-
+    <br>
+    <input type="text" value="pepepuroveneno" readonly disabled>
+    <br>
+    <input type="text" placeholder="Escribe tu nombre">
+    <br>
+    <h3>Ejemplo de Formularios</h3>
+    <h4>Formulario de Login</h4>
+    <!-- 
+        method="GET"
+        https://jonmircha.com/?usuario=18131209&password= 
+    
+        method="post"
+        https://jonmircha.com/
+    -->
+    <form action="https://jonmircha.com/" method="post">
+        <label for="usuario">Usuario: </label>
+        <input type="text" name="usuario" id="usuario" placeholder="Escribe tu usuario" pattern="^[A-Za-z]+$" title="El campo sólo acepta letras" required>
+        <br>
+        <!-- <input type="text" name="email" autocomplete="off"> -->
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" placeholder="Escribe tu password" required>
+        <br>
+        <input type="submit">
+        <br>
+        <input type="reset">
+        <br>
+    </form>
     <br>
     <a href="index.html#inicio">☝️</a>
     <hr>
+
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <script>
