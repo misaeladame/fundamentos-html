@@ -488,6 +488,64 @@
         <br>
     </form>
     <br>
+    <h4>Selects, Radios y Checkbox</h4>
+    <!--
+        http://127.0.0.1:5500/index.html?idioma=fr#formularios
+        http://127.0.0.1:5500/index.html?idioma=en&idioma=fr&idioma=it#formularios
+        http://127.0.0.1:5500/index.html?idioma=en&lenguaje=on#formularios
+        http://127.0.0.1:5500/index.html?idioma=en&lenguaje=php#formularios
+    -->
+    <form>
+        <p>Elige tu idioma:</p>
+        <select name="idioma" required>
+            <option value="" selected>Elige una opción</option>
+            <option value="es">Español</option>
+            <option value="en">Inglés</option>
+            <option value="fr">Francés</option>
+            <option value="it">Italiano</option>
+            <option value="pt">Portugués</option>
+        </select>
+        <p>Elige tu lenguaje de programación favorito:</p>
+        <input type="radio" name="lenguaje" id="radio-js" value="js" required>
+        <label for="radio-js">JavaScript</label>
+        <input type="radio" name="lenguaje" id="radio-py" value="py" checked>
+        <label for="radio-py">Python</label>
+        <input type="radio" name="lenguaje" id="radio-php" value="php">
+        <label for="radio-php">PHP</label>
+        <p>Elige tus intereses:</p>
+        <label>
+            <input type="checkbox" name="intereses" value="deportes">
+            Deportes
+        </label>
+        <label>
+            <input type="checkbox" name="intereses" value="finanzas" checked>
+            Finanzas
+        </label>
+        <label>
+            <input type="checkbox" name="intereses" value="salud">
+            Salud
+        </label>
+        <label>
+            <input type="checkbox" name="intereses" value="politica">
+            Politica
+        </label>
+        <label>
+            <input type="checkbox" name="intereses" value="ecologia">
+            Ecología
+        </label>
+        <br>
+        <p>
+            <label>
+                <input type="checkbox" name="terminos" required>
+                ¿Aceptas términos y condiciones?
+            </label>
+        </p>
+
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+    <br>
     <a href="index.html#inicio">☝️</a>
     <hr>
 
